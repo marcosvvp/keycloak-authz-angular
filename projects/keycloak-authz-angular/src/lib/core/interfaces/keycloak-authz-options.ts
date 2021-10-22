@@ -1,6 +1,5 @@
 import { KeycloakAuthzInitOptions } from './keycloak-authz-init-options';
-import { KeycloakConfig} from 'keycloak-angular';
-
+import { KeycloakConfig} from 'keycloak-js';
 
 export interface KeycloakAuthzOptions {
     
