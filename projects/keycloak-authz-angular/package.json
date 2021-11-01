@@ -1,11 +1,11 @@
 {
   "name": "keycloak-authz-angular",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easy Keycloak Authorizations for Angular applications",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+ssh@github.com:witcom-gmbh/keycloak-authz-angular.git"
+    "url": "git+ssh@github.com:marcosvvp/keycloak-authz-angular.git"
   },
   "author": {
     "name": "Carsten Buchberger",
@@ -13,7 +13,7 @@
     "url": "https://github.com/iceman91176"
 },
 "bugs": {
-    "url": "https://github.com/witcom-gmbh/keycloak-authz-angular/issues"
+    "url": "https://github.com/marcosvvp/keycloak-authz-angular/issues"
 },
   "peerDependencies": {
     "@angular/common": "^7.2.0",
