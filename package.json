@@ -1,6 +1,6 @@
 {
   "name": "keycloak-authz-angular",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "clean": "node ./node_modules/shx/lib/cli rm -rf ./dist/",
     "build": "npm run clean && node ./node_modules/@angular/cli/bin/ng build keycloak-authz-angular --prod",
@@ -12,12 +12,15 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+ssh@github.com:marcosvvp/keycloak-authz-angular.git"
+    "url": "https://github.com/marcosvvp/keycloak-authz-angular.git"
   },
   "author": {
-    "name": "Carsten Buchberger",
-    "email": "c.buchberger@****.de",
-    "url": "https://github.com/iceman91176"
+    "name": "Marcos Perusselo",
+    "email": "marcos.perusselo@ecotx.com.br",
+    "url": "https://github.com/marcosvvp"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/marcosvvp"
   },
   "bugs": {
     "url": "https://github.com/marcosvvp/keycloak-authz-angular/issues"
